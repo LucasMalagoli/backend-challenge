@@ -54,6 +54,12 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
 ---
 
+## Documentação
+
+Após inicialização local ou via docker, estará disponível em http://localhost:8000/docs
+
+---
+
 ## ⚠️ Observações
 
 * O valor da variável `DATABASE_URL` em `.env.example` está preenchido apenas para fins ilustrativos do desafio.
